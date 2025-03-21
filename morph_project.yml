@@ -1,0 +1,17 @@
+build:
+  build_args: null
+  context: null
+  framework: morph
+  package_manager: uv
+  runtime: python3.12
+  use_custom_dockerfile: false
+default_connection: DUCKDB
+deployment:
+  aws: null
+  gcp: null
+  provider: aws
+package_manager: uv
+profile: default
+project_id: null
+source_paths:
+- src
